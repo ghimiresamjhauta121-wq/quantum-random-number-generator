@@ -1,6 +1,6 @@
 Quantum Random Number Generator
 The QRNG is designed to be flexible in the number of qubits and number of outcomes. In this project I have done few basic exercise regarding quantum random number for 1,2,3,4 and n qubits. Firstly, I applied Hadamard gates to create superposition then measure qubits to get binary string. After that I converted binary to decimal numbers. 
-For 1-qubits it generates 0 and 1. The probability for both of them is 50%.
+For 1-qubits it generates 0 and 1. The probability for both of them is 50%.(coin toss)
 For 2-qubits it generates random 0,1,2,3. The probability for each is 25%.
 For 3-qubits it generates random 0 to 7 where the probability is 12.5% for each.
 For 4-qubits it generates from 0-15 but we use 0-9 as per given task with rejection sampling.
